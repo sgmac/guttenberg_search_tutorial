@@ -12,6 +12,3 @@ app.listen(port, err => {
   console.log(`App Listening on Port ${port}`)
 })
 
-module.exports = {
-  client, index, type, checkConnection, resetIndex
-}

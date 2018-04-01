@@ -45,3 +45,6 @@ async function putBookMapping () {
 }
 
 
+module.exports = {
+  client, index, type, checkConnection, resetIndex
+}
